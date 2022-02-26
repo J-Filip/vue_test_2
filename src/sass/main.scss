@@ -1,0 +1,32 @@
+// didnt work at the begining had to do:
+// npm cache clear --force
+// npm install sass
+
+@charset "utf-8";
+
+@import '~bulma';
+
+
+
+//! 2. Set your own initial variables
+
+$body-family: 'Fira Sans', 'Bitter', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji",'Ubuntu';
+$body-font-size: 1.1em;
+$title-weight: 700;
+$warning: #FBE099;
+$blue: #2166e6;
+
+
+//! 3. Set the derived variables
+
+// fix horizontal scroll on mobile view
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  
+  $body-background-color: $white;
+  $primary: $blue;
