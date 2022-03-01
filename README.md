@@ -1,4 +1,5 @@
-# vue_test_2
+# vue_test_2 - using options API - in progress
+
 
 ## Project setup
 ```
